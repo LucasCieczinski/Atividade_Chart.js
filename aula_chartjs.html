@@ -6,8 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+    <div class="header">
+        <span>Atividade Char.JS</span>
+    </div>
+
+
 
     <div class="container">
         <canvas id="myChart" class="g1"></canvas>
@@ -32,11 +40,12 @@
         data: [22, 24, 27, 23, 20, 18],
         borderWidth: 1,
         borderColor: '#36A2EB',
-      backgroundColor: '#9BD0F5',
+        backgroundColor: '#FF6B35',
       }, {
         label: 'Umidade Média',
         data: [90, 89, 93, 87, 88, 82],
-        borderWidth: 1
+        borderWidth: 1,
+        backgroundColor: '#4F81BD',
       }]
     },
     options: {
@@ -55,11 +64,13 @@
       datasets: [{
         label: 'Temperatura Média',
         data: [22, 24, 27, 23, 20, 18],
-        borderWidth: 1
+        borderWidth: 1,
+        backgroundColor: '#FF6B35',
       }, {
         label: 'Umidade Médoa',
         data: [90, 89, 93, 87, 88, 82],
-        borderWidth: 1
+        borderWidth: 1,
+        backgroundColor: '#4F81BD',
       }]
     },
     options: {

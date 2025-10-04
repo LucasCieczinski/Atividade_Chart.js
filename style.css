@@ -1,8 +1,26 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     width: 45%;
     margin: auto;
     padding: 200px 0 0 0;
+    background-color: #F9FAFB;
+    color: #2E2E2E;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 3px solid black;
+    background-color: #FFFFFF ;
+    padding: 20px;
+}
+
+.header span{
+    color: #2E2E2E;
 }
 
 canvas {
@@ -19,10 +37,13 @@ canvas {
 .g1{
     border: 3px solid black;
     border-radius: 10px;
+    box-shadow: #D1D5DB;
 
 }
 
 .g2{
     border: 3px solid black;
     border-radius: 10px;
+    box-shadow: #D1D5DB;
+
 }
